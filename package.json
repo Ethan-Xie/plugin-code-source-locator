@@ -1,9 +1,16 @@
 {
   "name": "plugin-code-source-locator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "只需要一键点击，跳转到对应vue代码，同事可清晰查看当期前代码的函数的堆栈信息",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/cjs/index.cjs",
+  "type": "module",
+  "exports": {
+    "types": "./dist/mjs/index.d.ts",
+    "import": "./dist/mjs/index.mjs",
+    "require": "./dist/cjs/index.cjs"
+  },
+  "module": "./dist/mjs/index.mjs",
+  "types": "./dist/mjs/index.d.ts",
   "files": [
     "dist"
   ],
@@ -14,7 +21,7 @@
     "eslint2": "eslint --fix src --ext .ts --max-warnings=0",
     "commit:comment": "引导设置规范化的提交信息",
     "commit": "cz",
-    "build": "node ./scripts/build.mjs && tsc --build tsconfig.json",
+    "build": "node ./scripts/build.mjs && tsc -m commonjs --outDir dist/cjs && tsc -m es6 --outDir dist/mjs",
     "preinstall": "npx only-allow pnpm",
     "release": "standard-version"
   },
