@@ -1,6 +1,6 @@
 {
   "name": "plugin-code-source-locator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "只需要一键点击，跳转到对应vue代码，同事可清晰查看当期前代码的函数的堆栈信息",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
