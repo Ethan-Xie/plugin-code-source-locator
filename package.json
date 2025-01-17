@@ -2,14 +2,14 @@
   "name": "plugin-code-source-locator",
   "version": "0.0.5",
   "description": "只需要一键点击，跳转到对应vue代码，同事可清晰查看当期前代码的函数的堆栈信息",
-  "main": "./dist/cjs/index.cjs",
+  "main": "./dist/cjs/index.js",
   "type": "module",
   "exports": {
     "types": "./dist/mjs/index.d.ts",
-    "import": "./dist/mjs/index.mjs",
-    "require": "./dist/cjs/index.cjs"
+    "import": "./dist/mjs/index.js",
+    "require": "./dist/cjs/index.js"
   },
-  "module": "./dist/mjs/index.mjs",
+  "module": "./dist/mjs/index.js",
   "types": "./dist/mjs/index.d.ts",
   "files": [
     "dist"
