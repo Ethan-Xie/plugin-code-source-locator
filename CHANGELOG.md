@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/Ethan-Xie/plugin-code-source-locator/compare/v0.0.7...v0.0.8) (2025-01-19)
+
 ### [0.0.7](https://github.com/Ethan-Xie/plugin-code-source-locator/compare/v0.0.6...v0.0.7) (2025-01-19)
 
 
