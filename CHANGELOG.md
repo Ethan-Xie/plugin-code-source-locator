@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/Ethan-Xie/plugin-code-source-locator/compare/v0.0.6...v0.0.7) (2025-01-19)
+
+
+### Features
+
+* 增加在控制台中打印 JS 代码的定位信息的功能 ([114afca](https://github.com/Ethan-Xie/plugin-code-source-locator/commit/114afca1ccdf180599f2eccec48c0f9a42b13708))
+
 ### [0.0.6](https://github.com/Ethan-Xie/plugin-code-source-locator/compare/v0.0.5...v0.0.6) (2025-01-17)
 
 
